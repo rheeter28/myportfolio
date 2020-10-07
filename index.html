@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-------BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+  <!---MY CSS-->
+  <link rel='stylesheet' type='text/css' href="portfolio.css">
+  <title>Robert Heeter</title>
+</head>
+<body>
+<!--NAV BAR-->
+<span class="border border-dark">
+<nav class="navbar navbar-expand-lg navbar-light navbar navbar-dark bg-dark">
+  <a class="navbar-brand" role="navigation" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PORTFOLIO</a>
+      </li>
+      <li class='nav-item'>
+        <a class="nav-link" href="#">SKILLS</a>
+      </li>
+      <li class='nav-item'>
+        <a class="nav-link" href="#">EXPERIENCE</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+    ROBERT HEETER
+    </span>
+  </div>
+</nav>
+
+<!---JUMBOTRON-->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">ROBERT HEETER</h1>
+      <h3><p class="lead">Junior Web Developer</p></h3>
+    </div>
+  </div>
+</span>  
+<!----ABOUT ME SECTION-->
+<div class='about' role='navigation'>
+<h3 class='header'>About Me</h3>
+
+<div>
+    <p class='introduction'>Hello, My name is Robert Heeter, and I am currently enrolled at the Eleven Fifty Academy studying to become a javaScript developer. The experiences that I am aquiring at Eleven Fifty allow me to be in a positon to be confronted with challenges and develop alternate thought processes to to solve them.  </p>
+
+    <p class='resume'>I started my career in the Culinary Arts, where I spent the next two years developing a love and repsect for the dishes I was preparing. My budding career led me back home to Indiana where I started work for Scottys Brewhouse, I was forunate to work work along side many amazing people at Scottys. During my eight years at Scottys I worked my way from a fast paced fry cook, to and even faster paced Kitchen Manager, Bar Manager and everything in bewteen. My time at Scottys allowed me to develop my interpersonal communication skill with my team and patrons, furtermore it gave me the opportuinty to learn and grow in my career but also outside of the restaurant. I have enjoyed working in the hospitality industry, and it is time for me to persue another path.</p>
+  <!---RESUME LINKED BELOW-->
+  <p><em>Please take a look a my <a href='/projects/portfolio/myAssets/Robert_Heeter_Resume.PDF'>resume</a>, to learn more about my past experiences</em></p>
+</div>
+
+</div>
+</div>
+<div class='portfolio' role='navigation'>
+  <h3>My Portfolio</h3>
+  <div class="card-deck">
+    <div class="card">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Static Website</h5>
+        <p class="card-text"></p>
+      </div>
+      <a href="https://rheeter28.github.io/StaticLayout/" class="btn btn-primary stretched-link">CLICK TO VIEW</a>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    <div class="card">
+      <img src='' class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CSS Creature</h5>
+        <p class="card-text">My CSS creature was make using on HTML and CSS</p>
+      </div>
+      <a href="https://codepen.io/Heeter11/full/wvGmLKJ" class="btn btn-primary stretched-link">CLICK TO VIEW</a>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/projects/portfolio/myAssets/pokeAPI screenShot.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Poke API</h5>
+        <p class="card-text">Here here is my first API project, It may no be pretty but it did help me learn many lessons.</p>
+      </div>
+      <a href="https://rheeter28.github.io/PokemonAPI/" class="btn btn-primary stretched-link">CLICK TO VIEW</a>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Giphy API</h5>
+        <p class="card-text">The is my API Challenge #2 project</p>
+      </div>
+      <a href="https://rh-giphyapi.web.app/" class="btn btn-primary stretched-link">CLICK TO VIEW</a>
+      <div class="card-footer">
+        <small class="text-muted"></small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!---FORMSPREE CODE-->
+<div>
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Please leave any feedback or messages here." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+</div>
+<!---------BOOTSTRAP SCRIPT-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+  <!-----MY SCRIPT-->
+ <script src='portfolio.js'></script> 
+</body>
+</html>
