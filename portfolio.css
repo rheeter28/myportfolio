@@ -1,36 +1,84 @@
+body {
+  background-color:#2C2C2C;
+  color:white;
+}
+
+
+
 .jumbotron {
   background-image: url(myAssets/Courtyard.jpg);
   height: 700px;
   color: white;
   background-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  
+ 
+
 }
 
 .header {
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40%;
 }
 
 .container {
-  margin-left:30%;
+  margin-left:35%;
+  
  
 }
+
+.message {
+  margin-left: 32%;
+  margin-top: 5%;
+}
+
 
 .introduction {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
 
+.lead {
+  font-size: 35px;
+
+}
+
+
+
+
+.folio {
+  margin-left: 40%;
+}
+
 
 
 .resume {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 
 }
 
 .about{
-  background:white;
+  background: #2C2C2C;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 10%;
+  
 }
+
+.img-thumbnail {
+  margin-left: 5%;
+  border-radius: 100%;
+  
+}
+
+.linked{
+margin-left: 40%;
+margin-top: 2%;
+}
+
+
+
 
 
 #fs-frm input,
@@ -46,17 +94,21 @@
   border: none;
   border-radius: 0;
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 0;
-  margin: 0;
+  margin-left: 20%;
   -webkit-appearance: none;
   -moz-appearance: none;
+  margin-top: 3%
+ 
+
 }
+
 #fs-frm label,
 #fs-frm legend,
 #fs-frm ::placeholder {
   font-size: .825rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   padding-top: .2rem;
   display: flex;
   align-items: baseline;
@@ -102,41 +154,18 @@
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
   margin-bottom: 0;
-}
-#fs-frm select {
-  text-transform: none;
+  margin-left: 30%;
+
+  
 }
 
-#fs-frm [type="checkbox"] {
-  -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
-  appearance: checkbox;
-  display: inline-block;
-  width: auto;
-  margin: 0 .5em 0 0 !important;
-}
 
-#fs-frm [type="radio"] {
-  -webkit-appearance: radio;
-  -moz-appearance: radio;
-  appearance: radio;
-}
+ 
 
-/* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  display: inline;
-}
-#fs-frm fieldset.locale input[name="city"] {
-  width: 52%;
-}
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  width: 20%;
-}
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-  margin-right: 3%;
-  margin-left: 30%
-}
+
+
+
+
+
+
+
